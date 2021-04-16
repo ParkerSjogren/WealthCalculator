@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>WealthCalculator</title>
+    <img src="wealth.png">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h2>Wealth Calculator Fields</h2>
+
+    <table>
+        <tr style="background-color:transparent;">
+            <td>Initial Investment:</td>
+            <td><input type="number" id="initialBalance" style="width:8em; text-align:right; background-color:white; border-width:1px;"></td>
+            <td>$</td>
+        </tr>
+        <tr style="background-color:transparent;">
+            <td>Years Investing:</td>
+            <td><input type="number" id="yearsInvesting" style="width:8em; text-align:right; background-color:white; border-width:1px;"></td>
+            <td>$</td>
+        </tr>
+        <tr style="background-color:transparent;">
+            <td>Expected Return:</td>
+            <td><input type="number" id="rateReturn" style="width:8em; text-align:right; background-color:white; border-width:1px;"></td>
+            <td>%</td>
+        </tr>
+        <tr style="background-color:transparent;">
+            <td>Additional Investment Amount:</td>
+            <td><input type="number" id="addlInvestAmts" style="width:8em; text-align:right; background-color:white; border-width:1px;"></td>
+            <td>$</td>
+        </tr>    
+    </table>
+
+    <div>
+        <label>Additional Investments frequency</label>
+        <select id="frequency">
+            <option value="annually">Annually</option>
+            <option value="monthly" selected="">Monthly</option>
+        </select>
+    </div>
+    <div>
+        <button id="calcBtn" onclick="CalculateWealth()">Calculate</button>
+        <button id="saveBtn" onclick="updateParameters()">Save Parameters</button>
+    </div>
+
+    <script type="text/javascript" src=index.js> </script>
+</body>
+</html>
