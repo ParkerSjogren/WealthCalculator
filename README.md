@@ -6,11 +6,18 @@ Getting started:
 ```
 Create a MongoDB database with the name:WealthCalaculator (mongodb://localhost:27017)
 
-in the .\WealthCalculator directory run:
+At the command prompt and in a directory that you wish to stage the Wealth Calculator application, enter:
+
+git clone https://github.com/ParkerSjogren/WealthCalculator.git
+
+Change your directory down and into the  .\WealthCalculator directory and then run:
 
 npm install
 node model\loadInitialUsers
+--> above two commands run only one time for installation
+
 npm start
+--> run everytime use wish to run the application
 
 On a web brower, enter: localhost:3000
 - You will presented with the Wealth Calculator screen, from which you can enter/modify calculation parameters, save those paramters if you desire and calculate the future value of your investments
