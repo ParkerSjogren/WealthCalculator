@@ -4,12 +4,16 @@ Calculates compounding interest given an initial investment and additionaly mont
 
 Getting started:
 ```
-npm install
-npm start
-```
-on a web brower:
+Create a MongoDB database with the name:WealthCalaculator (mongodb://localhost:27017)
 
-localhost:3000
+in the .\WealthCalculator directory run:
+
+npm install
+node model\loadInitialUsers
+npm start
+
+On a web brower, enter: localhost:3000
+- You will presented with the Wealth Calculator screen, from which you can enter/modify calculation parameters, save those paramters if you desire and calculate the future value of your investments
 
 Curl commands
 ```
