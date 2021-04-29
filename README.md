@@ -6,7 +6,7 @@ Getting started:
 ```
 Create a MongoDB database with the name:WealthCalaculator (mongodb://localhost:27017)
 
-At the command prompt and in a directory that you wish to stage the Wealth Calculator application, enter:
+At the command prompt and in a directory that you wish to stage the Wealth Calculator application, enter :
 
 git clone https://github.com/ParkerSjogren/WealthCalculator.git
 
